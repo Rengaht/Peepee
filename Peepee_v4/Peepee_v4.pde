@@ -72,7 +72,7 @@ void draw(){
    	// blendMode(NORMAL);
    	image(stroke_canvas.pg,-width/20,0);
 	
-   	if(frameCount%24==0 && random(3)<1) initPee();
+   	// if(frameCount%24==0 && random(3)<1) initPee();
 
 
 	frame.setTitle(String.valueOf(frameRate));
